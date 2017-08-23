@@ -44,9 +44,7 @@ public class LoginFilter implements Filter {
 			
 		}
 		
-		
-		
-		
+
 		if(session.getAttribute("username")!=null){
 			arg2.doFilter(arg0, arg1);
 		}else{
